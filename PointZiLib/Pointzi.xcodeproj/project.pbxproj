@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2682DDC62294DB5E001F958F /* Pointzi-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2682DDC72294DB5E001F958F /* Build configuration list for PBXAggregateTarget "Pointzi-Universal" */;
+			buildPhases = (
+				2682DDCA2294DBD1001F958F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Pointzi-Universal";
+			productName = "Pointzi-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		266563A522963FDD00A385F7 /* PZTooltipView.h in Headers */ = {isa = PBXBuildFile; fileRef = 266563A322963FDD00A385F7 /* PZTooltipView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266563A622963FDD00A385F7 /* PZTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 266563A422963FDD00A385F7 /* PZTooltipView.m */; };
+		266563B422965DAA00A385F7 /* PointziTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2682DDB52294C1AC001F958F /* PointziTests.m */; };
+		266563BA2296641800A385F7 /* PZToolTip.h in Headers */ = {isa = PBXBuildFile; fileRef = 266563B82296641800A385F7 /* PZToolTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266563BB2296641800A385F7 /* PZToolTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 266563B92296641800A385F7 /* PZToolTip.m */; };
+		266B5DFE229635BF0030422C /* PZTooltipObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 266B5DFC229635BF0030422C /* PZTooltipObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266B5DFF229635BF0030422C /* PZTooltipObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 266B5DFD229635BF0030422C /* PZTooltipObj.m */; };
+		266B5E04229639070030422C /* ServerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 266B5E02229639070030422C /* ServerModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266B5E05229639070030422C /* ServerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 266B5E03229639070030422C /* ServerModel.m */; };
+		2682DDB12294C1AC001F958F /* Pointzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2682DDA72294C1AC001F958F /* Pointzi.framework */; };
+		2682DDB82294C1AC001F958F /* Pointzi.h in Headers */ = {isa = PBXBuildFile; fileRef = 2682DDAA2294C1AC001F958F /* Pointzi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2682DDB22294C1AC001F958F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2682DD9E2294C1AC001F958F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2682DDA62294C1AC001F958F;
+			remoteInfo = Pointzi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		266563A322963FDD00A385F7 /* PZTooltipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZTooltipView.h; sourceTree = "<group>"; };
+		266563A422963FDD00A385F7 /* PZTooltipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZTooltipView.m; sourceTree = "<group>"; };
+		266563B82296641800A385F7 /* PZToolTip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZToolTip.h; sourceTree = "<group>"; };
+		266563B92296641800A385F7 /* PZToolTip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZToolTip.m; sourceTree = "<group>"; };
+		266B5DFC229635BF0030422C /* PZTooltipObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZTooltipObj.h; sourceTree = "<group>"; };
+		266B5DFD229635BF0030422C /* PZTooltipObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZTooltipObj.m; sourceTree = "<group>"; };
+		266B5E02229639070030422C /* ServerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerModel.h; sourceTree = "<group>"; };
+		266B5E03229639070030422C /* ServerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerModel.m; sourceTree = "<group>"; };
+		2682DDA72294C1AC001F958F /* Pointzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pointzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2682DDAA2294C1AC001F958F /* Pointzi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pointzi.h; sourceTree = "<group>"; };
+		2682DDAB2294C1AC001F958F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2682DDB02294C1AC001F958F /* PointziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2682DDB52294C1AC001F958F /* PointziTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointziTests.m; sourceTree = "<group>"; };
+		2682DDB72294C1AC001F958F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2682DDA42294C1AC001F958F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2682DDAD2294C1AC001F958F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2682DDB12294C1AC001F958F /* Pointzi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266563B7229663B700A385F7 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				266563B82296641800A385F7 /* PZToolTip.h */,
+				266563B92296641800A385F7 /* PZToolTip.m */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
+		266B5E01229635D50030422C /* ModelObj */ = {
+			isa = PBXGroup;
+			children = (
+				266B5DFC229635BF0030422C /* PZTooltipObj.h */,
+				266B5DFD229635BF0030422C /* PZTooltipObj.m */,
+			);
+			name = ModelObj;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		266B5E07229639100030422C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				266B5E02229639070030422C /* ServerModel.h */,
+				266B5E03229639070030422C /* ServerModel.m */,
+			);
+			name = Model;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		266B5E08229639270030422C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2682DDAA2294C1AC001F958F /* Pointzi.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		266B5E09229639410030422C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				266563A322963FDD00A385F7 /* PZTooltipView.h */,
+				266563A422963FDD00A385F7 /* PZTooltipView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2682DD9D2294C1AC001F958F = {
+			isa = PBXGroup;
+			children = (
+				2682DDA92294C1AC001F958F /* Pointzi */,
+				2682DDB42294C1AC001F958F /* PointziTests */,
+				2682DDA82294C1AC001F958F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2682DDA82294C1AC001F958F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2682DDA72294C1AC001F958F /* Pointzi.framework */,
+				2682DDB02294C1AC001F958F /* PointziTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2682DDA92294C1AC001F958F /* Pointzi */ = {
+			isa = PBXGroup;
+			children = (
+				266563B7229663B700A385F7 /* Singletons */,
+				266B5E08229639270030422C /* Headers */,
+				266B5E07229639100030422C /* Model */,
+				266B5E01229635D50030422C /* ModelObj */,
+				266B5E09229639410030422C /* Views */,
+				2682DDAB2294C1AC001F958F /* Info.plist */,
+			);
+			path = Pointzi;
+			sourceTree = "<group>";
+		};
+		2682DDB42294C1AC001F958F /* PointziTests */ = {
+			isa = PBXGroup;
+			children = (
+				2682DDB52294C1AC001F958F /* PointziTests.m */,
+				2682DDB72294C1AC001F958F /* Info.plist */,
+			);
+			path = PointziTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2682DDA22294C1AC001F958F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2682DDB82294C1AC001F958F /* Pointzi.h in Headers */,
+				266563BA2296641800A385F7 /* PZToolTip.h in Headers */,
+				266B5DFE229635BF0030422C /* PZTooltipObj.h in Headers */,
+				266B5E04229639070030422C /* ServerModel.h in Headers */,
+				266563A522963FDD00A385F7 /* PZTooltipView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2682DDA62294C1AC001F958F /* Pointzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2682DDBB2294C1AC001F958F /* Build configuration list for PBXNativeTarget "Pointzi" */;
+			buildPhases = (
+				2682DDA22294C1AC001F958F /* Headers */,
+				2682DDA32294C1AC001F958F /* Sources */,
+				2682DDA42294C1AC001F958F /* Frameworks */,
+				2682DDA52294C1AC001F958F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pointzi;
+			productName = Pointzi;
+			productReference = 2682DDA72294C1AC001F958F /* Pointzi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2682DDAF2294C1AC001F958F /* PointziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2682DDBE2294C1AC001F958F /* Build configuration list for PBXNativeTarget "PointziTests" */;
+			buildPhases = (
+				2682DDAC2294C1AC001F958F /* Sources */,
+				2682DDAD2294C1AC001F958F /* Frameworks */,
+				2682DDAE2294C1AC001F958F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2682DDB32294C1AC001F958F /* PBXTargetDependency */,
+			);
+			name = PointziTests;
+			productName = PointziTests;
+			productReference = 2682DDB02294C1AC001F958F /* PointziTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2682DD9E2294C1AC001F958F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mahipal Kummari";
+				TargetAttributes = {
+					2682DDA62294C1AC001F958F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2682DDAF2294C1AC001F958F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2682DDC62294DB5E001F958F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2682DDA12294C1AC001F958F /* Build configuration list for PBXProject "Pointzi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2682DD9D2294C1AC001F958F;
+			productRefGroup = 2682DDA82294C1AC001F958F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2682DDA62294C1AC001F958F /* Pointzi */,
+				2682DDAF2294C1AC001F958F /* PointziTests */,
+				2682DDC62294DB5E001F958F /* Pointzi-Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2682DDA52294C1AC001F958F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2682DDAE2294C1AC001F958F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2682DDCA2294DBD1001F958F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-Universal\n\n# Make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n# work out if we're in SIMULATOR or REAL DEVICE\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"$SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"$SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# open the Universal output folder for Convenience\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2682DDA32294C1AC001F958F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266B5DFF229635BF0030422C /* PZTooltipObj.m in Sources */,
+				266563A622963FDD00A385F7 /* PZTooltipView.m in Sources */,
+				266B5E05229639070030422C /* ServerModel.m in Sources */,
+				266563BB2296641800A385F7 /* PZToolTip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2682DDAC2294C1AC001F958F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266563B422965DAA00A385F7 /* PointziTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2682DDB32294C1AC001F958F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2682DDA62294C1AC001F958F /* Pointzi */;
+			targetProxy = 2682DDB22294C1AC001F958F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2682DDB92294C1AC001F958F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "arm64 arm64e armv7 armv7s x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2682DDBA2294C1AC001F958F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "arm64 arm64e armv7 armv7s x86_64";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2682DDBC2294C1AC001F958F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KTMH8X8G5J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Pointzi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbox.Pointzif;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = x86_64;
+			};
+			name = Debug;
+		};
+		2682DDBD2294C1AC001F958F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KTMH8X8G5J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Pointzi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbox.Pointzif;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2682DDBF2294C1AC001F958F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHR236PTHQ;
+				INFOPLIST_FILE = PointziTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahipal-Kummari.PointziTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = x86_64;
+			};
+			name = Debug;
+		};
+		2682DDC02294C1AC001F958F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHR236PTHQ;
+				INFOPLIST_FILE = PointziTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahipal-Kummari.PointziTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2682DDC82294DB5E001F958F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHR236PTHQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2682DDC92294DB5E001F958F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHR236PTHQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2682DDA12294C1AC001F958F /* Build configuration list for PBXProject "Pointzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2682DDB92294C1AC001F958F /* Debug */,
+				2682DDBA2294C1AC001F958F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2682DDBB2294C1AC001F958F /* Build configuration list for PBXNativeTarget "Pointzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2682DDBC2294C1AC001F958F /* Debug */,
+				2682DDBD2294C1AC001F958F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2682DDBE2294C1AC001F958F /* Build configuration list for PBXNativeTarget "PointziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2682DDBF2294C1AC001F958F /* Debug */,
+				2682DDC02294C1AC001F958F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2682DDC72294DB5E001F958F /* Build configuration list for PBXAggregateTarget "Pointzi-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2682DDC82294DB5E001F958F /* Debug */,
+				2682DDC92294DB5E001F958F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2682DD9E2294C1AC001F958F /* Project object */;
+}
