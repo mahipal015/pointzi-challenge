@@ -1,0 +1,6 @@
+framework module Pointzi {
+  umbrella header "Pointzi.h"
+
+  export *
+  module * { export * }
+}
